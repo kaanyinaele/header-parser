@@ -39,7 +39,7 @@ export default function Home() {
         <h1
           style={{ fontFamily: '"Chakra Petch", sans-serif', fontWeight: 600 }}
         >
-          Request Header Parser Microservice
+          Request Header Parser
         </h1>
         <button
           onClick={getInfo}
