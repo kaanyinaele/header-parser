@@ -61,6 +61,9 @@ export default function Home() {
               padding: "20px",
               borderRadius: "5px",
               backgroundColor: "rgb(69, 151, 251)",
+              width: "70%", // Default for larger screens
+              height: "auto",
+              overflowX: "auto", // Ensure content is scrollable on small screens
             }}
           >
             {JSON.stringify(result, null, 2)}
